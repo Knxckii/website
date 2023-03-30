@@ -1,0 +1,106 @@
+.Überschrift {
+    font-family: Futura Md Bt, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    width: 450;
+    height: 120;
+    position: absolute;
+    left: 50%;
+    top: 4.5%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
+}
+
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 20%;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+   color: #fff;
+    text-decoration: none;
+}
+
+.Hintergrund {
+    background-color: white;
+    width: 450;
+    height: 150;
+    position: absolute;
+    left: 50%;
+    top: 3.5%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.background {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    transition: all ease-in-out 0.2s;
+    width: 260px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: azure;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
+     
+}
+
+.Bild2 {
+    width: 500;
+    height: 500;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.Bild1 {
+    width: 500;
+    height: 500;
+    position: absolute;
+    left: 68%;
+    top: 40%;
+
+}
